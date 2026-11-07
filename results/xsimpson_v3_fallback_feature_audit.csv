@@ -1,0 +1,5 @@
+route,rows_eligible_when,evaluation_inputs,training_information
+missing direction,EV/LA and handedness available,"launch_speed, launch_angle, sprint_speed, left_handed, speed_missing",quadratic baseline fitted on training rows only
+missing EV/LA or handedness,baseline unavailable,bb_type (post-contact source classification),training outcome frequencies within bb_type
+unknown bb_type,baseline and type unavailable,none,global training outcome frequencies
+missing prior speed,speed_missing == 1,speed_missing plus training replacement speed,training median/reference; no validation outcome

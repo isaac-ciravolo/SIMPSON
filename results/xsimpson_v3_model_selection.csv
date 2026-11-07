@@ -1,0 +1,2 @@
+selected_model,validation_season,training_season,rule,Simpson_excluded
+hist_gradient_boosting,2025,2024,lower log loss; no worse ECE and event-value RMSE,True

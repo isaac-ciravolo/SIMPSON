@@ -1,0 +1,27 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large reproducible Statcast downloads
+data/statcast_[0-9][0-9][0-9][0-9].csv
+data/pa_discrepancy_sources/
+
+# Temporary downloads and execution logs
+*.partial.csv
+*.log
+*.tmp
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Microsoft/

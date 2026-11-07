@@ -1,0 +1,7 @@
+field,non_predictor_role,enters_fitted_estimator
+events/outcome,label and fair-contact accounting,False
+des/description,foul-out row exclusion and manual review,False
+bb_type,diagnostic strata and missing-contact prior only,False
+woba_value,evaluation target joined after prediction,False
+estimated_woba_using_speedangle,scalar benchmark joined after prediction,False
+hc_x/hc_y/radius,raw coordinates and radius excluded; angle only,False

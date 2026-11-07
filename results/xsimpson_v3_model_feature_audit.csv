@@ -1,0 +1,60 @@
+model,input_feature,source_columns,construction
+ground_binary_quadratic_baseline,launch_speed,launch_speed,raw Statcast exit velocity
+ground_binary_quadratic_baseline,launch_angle,launch_angle,raw Statcast launch angle
+ground_binary_quadratic_baseline,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+ground_binary_quadratic_baseline,left_handed,stand,"1 for L, 0 for R"
+ground_binary_quadratic_baseline,speed_missing,sprint_speed,1 when prior-season speed is missing
+ground_binary_quadratic_full,launch_speed,launch_speed,raw Statcast exit velocity
+ground_binary_quadratic_full,launch_angle,launch_angle,raw Statcast launch angle
+ground_binary_quadratic_full,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+ground_binary_quadratic_full,left_handed,stand,"1 for L, 0 for R"
+ground_binary_quadratic_full,speed_missing,sprint_speed,1 when prior-season speed is missing
+ground_binary_quadratic_full,spray_angle,hc_x + hc_y,"atan2 chart direction around (125.42, 198.27)"
+all_contact_quadratic_baseline,launch_speed,launch_speed,raw Statcast exit velocity
+all_contact_quadratic_baseline,launch_angle,launch_angle,raw Statcast launch angle
+all_contact_quadratic_baseline,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+all_contact_quadratic_baseline,left_handed,stand,"1 for L, 0 for R"
+all_contact_quadratic_baseline,speed_missing,sprint_speed,1 when prior-season speed is missing
+all_contact_quadratic_full,launch_speed,launch_speed,raw Statcast exit velocity
+all_contact_quadratic_full,launch_angle,launch_angle,raw Statcast launch angle
+all_contact_quadratic_full,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+all_contact_quadratic_full,left_handed,stand,"1 for L, 0 for R"
+all_contact_quadratic_full,speed_missing,sprint_speed,1 when prior-season speed is missing
+all_contact_quadratic_full,spray_angle,hc_x + hc_y,"atan2 chart direction around (125.42, 198.27)"
+2024_selection_quadratic_baseline,launch_speed,launch_speed,raw Statcast exit velocity
+2024_selection_quadratic_baseline,launch_angle,launch_angle,raw Statcast launch angle
+2024_selection_quadratic_baseline,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+2024_selection_quadratic_baseline,left_handed,stand,"1 for L, 0 for R"
+2024_selection_quadratic_baseline,speed_missing,sprint_speed,1 when prior-season speed is missing
+2024_selection_quadratic_full,launch_speed,launch_speed,raw Statcast exit velocity
+2024_selection_quadratic_full,launch_angle,launch_angle,raw Statcast launch angle
+2024_selection_quadratic_full,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+2024_selection_quadratic_full,left_handed,stand,"1 for L, 0 for R"
+2024_selection_quadratic_full,speed_missing,sprint_speed,1 when prior-season speed is missing
+2024_selection_quadratic_full,spray_angle,hc_x + hc_y,"atan2 chart direction around (125.42, 198.27)"
+2024_selection_HGB_C,launch_speed,launch_speed,raw Statcast exit velocity
+2024_selection_HGB_C,launch_angle,launch_angle,raw Statcast launch angle
+2024_selection_HGB_C,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+2024_selection_HGB_C,left_handed,stand,"1 for L, 0 for R"
+2024_selection_HGB_C,speed_missing,sprint_speed,1 when prior-season speed is missing
+2024_selection_HGB_C,spray_angle,hc_x + hc_y,"atan2 chart direction around (125.42, 198.27)"
+2024_2025_selected_HGB_C,launch_speed,launch_speed,raw Statcast exit velocity
+2024_2025_selected_HGB_C,launch_angle,launch_angle,raw Statcast launch angle
+2024_2025_selected_HGB_C,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+2024_2025_selected_HGB_C,left_handed,stand,"1 for L, 0 for R"
+2024_2025_selected_HGB_C,speed_missing,sprint_speed,1 when prior-season speed is missing
+2024_2025_selected_HGB_C,spray_angle,hc_x + hc_y,"atan2 chart direction around (125.42, 198.27)"
+ablation_HGB_A_contact,launch_speed,launch_speed,raw Statcast exit velocity
+ablation_HGB_A_contact,launch_angle,launch_angle,raw Statcast launch angle
+ablation_HGB_A_contact,left_handed,stand,"1 for L, 0 for R"
+ablation_HGB_B_speed,launch_speed,launch_speed,raw Statcast exit velocity
+ablation_HGB_B_speed,launch_angle,launch_angle,raw Statcast launch angle
+ablation_HGB_B_speed,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+ablation_HGB_B_speed,left_handed,stand,"1 for L, 0 for R"
+ablation_HGB_B_speed,speed_missing,sprint_speed,1 when prior-season speed is missing
+ablation_HGB_C_direction,launch_speed,launch_speed,raw Statcast exit velocity
+ablation_HGB_C_direction,launch_angle,launch_angle,raw Statcast launch angle
+ablation_HGB_C_direction,sprint_speed,player_id + prior season,prior-season join; training-only replacement
+ablation_HGB_C_direction,left_handed,stand,"1 for L, 0 for R"
+ablation_HGB_C_direction,speed_missing,sprint_speed,1 when prior-season speed is missing
+ablation_HGB_C_direction,spray_angle,hc_x + hc_y,"atan2 chart direction around (125.42, 198.27)"

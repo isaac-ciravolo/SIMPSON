@@ -1,0 +1,37 @@
+{
+  "training_seasons": [
+    2024,
+    2025
+  ],
+  "development_season": 2026,
+  "excluded_batter": 802415,
+  "settings": {
+    "degree": 2,
+    "C": 1.0,
+    "max_iter": 2000
+  },
+  "versions": {
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "original_expected_credits_reproduced": true,
+  "sha256": {
+    "benchmarks\\frozen_quadratic_benchmark\\contact_predictions_2026.parquet": "71b6aa5c1996de7c7a6375d38e56a68295eae0e816ded3be93b0a55f1d2f1293",
+    "benchmarks\\frozen_quadratic_benchmark\\quadratic_models.joblib": "0f00f14c7d8e0492ba736b4f5d35c6588f482ebb74ed6d56155a3a40f78a8583",
+    "benchmarks\\frozen_quadratic_benchmark\\README.md": "bc54f34a87b92e91209b1d3e2570e1684dd39614e9ff98709b696a313cd0416b",
+    "benchmarks\\frozen_quadratic_benchmark\\xsimpson_v3_batting_calibration.csv": "586622c9bd936ccafde1759c3eb30986ef1de7c44613a30242e02efac67a8c73",
+    "benchmarks\\frozen_quadratic_benchmark\\xsimpson_v3_batting_metrics.csv": "571cbc723f0932df90906470e7b220c3b58f6f71b34aa91c6b5d60c047b1fe8a",
+    "benchmarks\\frozen_quadratic_benchmark\\xsimpson_v3_batting_results.csv": "3dc160a482c7870eec318e0d2b143cebda9f94ba7db6a484fa05604e4ad7cfac",
+    "benchmarks\\frozen_quadratic_benchmark\\xsimpson_v3_missing_speed_sensitivity.csv": "d07892bf117d4969dcc358fd895b670d6e9c2af43c8de4b7fb695d72db254a2c",
+    "benchmarks\\frozen_quadratic_benchmark\\xsimpson_v3_season_total_validation.csv": "81eac6ed4c2b4753cb41829119399e2525ba0fcbaccc6982c2e7e621eda6102d",
+    "benchmarks\\frozen_quadratic_benchmark\\xsimpson_v3_statcast_xwoba_benchmark.csv": "8f9c9dbd33980851b74a5cd1d3e1d3bf45be44fdb04392cdbee9848e271f74ed",
+    "data\\statcast_2024.csv": "e3316385ed97cd1bd475b11c78905e220dcdb3c47df8e7f648a604d8795ffa01",
+    "data\\statcast_2025.csv": "e66868a13f17ec0dcf198f3a0c83b4a97ad7914c05fa0bc34796d870787c884b",
+    "data\\statcast_2026.csv": "1f358633bade9e6590151f96a5d106e181ab0c98b961fc2283b22ddec092a0f4",
+    "data\\sprint_speed.csv": "ebb85683f9de5afbf34013c5dacdc3574773e7bfb0d35b93ab60bfe605e64c72",
+    "data\\fangraphs-guts-data.csv": "1cd34087de4c9249d6cde0109d2f895ade31c84d4f8dff92b18030081e57eaa3",
+    "benchmarks\\frozen_quadratic_benchmark\\original_notebook.ipynb": "0e83e951d57a0a1f28536d571f9657f75bc9cfe72067b7bec81b9b33c61ccb2c"
+  }
+}
